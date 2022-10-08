@@ -1,0 +1,165 @@
+/*********************TAG SELECTORS*************************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+
+hr{
+
+ width:5%;
+ border: none;
+ border-style:none;
+ border-width: 5px;
+ border-top-style: dotted;
+ color: grey;
+}
+
+h1{
+  color:#66BFBF;
+  font-size: 562.5%;
+  font-family: 'Sacramento', cursive;
+  position: relative;
+  top:30px;
+  line-height: 1;
+}
+
+h2{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+a{
+  color:#11999E;
+  font-family: Montserrat;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+span{
+  text-decoration: underline;
+}
+p{
+  line-height: 2;
+
+}
+/*********************CLASS SELECTORS*************************/
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #E4F9F5;
+}
+
+.middle-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.bottom-container {
+  height: 50px;
+  background-color: #66BFBF;
+  padding:50px;
+
+}
+
+
+
+.top-cloud{
+  position: absolute;
+  top:20%;
+  right:20%;
+
+}
+
+.bottom-cloud{
+position:absolute;
+
+}
+.skill-row{
+  width:50%;
+  margin:200px auto 200px auto;
+    text-align: left;
+}
+
+.programming{
+  width: 25%;
+  border-radius: 50%;
+  float:left;
+  margin-right: 30px;
+
+}
+
+
+
+.chess{
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 10px;
+  bottom:65px;
+  position: relative;
+  right: 100px;
+
+}
+.c1{
+  position: relative;
+  left: 100px;
+}
+
+.c2{
+  position: relative;
+  left: 100px;
+}
+
+.itachi{
+  height:200px;
+  width:auto;
+}
+.last-p{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding:20px 0;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/*********************ID SELECTORS*************************/
